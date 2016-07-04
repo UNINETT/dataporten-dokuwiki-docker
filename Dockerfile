@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Ilya Stepanov <dev@ilyastepanov.com>
+MAINTAINER Kasper Rynning-Tønnesen <kasper@kasperrt.no>
 
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys E5267A6C && \
     echo 'deb http://ppa.launchpad.net/ondrej/php5/ubuntu trusty main' > /etc/apt/sources.list.d/ondrej-php5-trusty.list && \
