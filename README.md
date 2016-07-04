@@ -25,6 +25,10 @@ DOKUWIKI_SUPERUSER=SUPER_USER_GROUP_SHOULD_BE_ONE_OF_DATAPORTEN_GROUPS
 ```$ docker run --env-file=YOUR_ENV_FILE -p DESIRED_PORT:80 -t uninettno/dataporten-dokuwiki-docker```
 
 
-Roles of DokuWiki cna be found here:
+Roles of DokuWiki can be found here:
 
 https://www.dokuwiki.org/acl#background_info
+
+Licenses of DokuWiki can be found here:
+
+https://github.com/splitbrain/dokuwiki/blob/master/conf/license.php
