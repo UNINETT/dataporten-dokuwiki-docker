@@ -50,7 +50,7 @@ RUN curl -O -L "https://github.com/kasperrt/dokuwiki-plugin-oauth/archive/patch-
     rm -rf patch-2.zip
 
 COPY conf/local.php /var/dokuwiki-storage/conf/local.php
-COPY conf/users.auth.php /var/dokuwiki-storage/conf/users.auth.php
+COPY conf/users.auth.php /users.auth.php
 COPY conf/change_permissions.php /change.php
 #COPY dokuwiki.conf /var/dokuwiki-storage/conf/dokuwiki.conf
 
